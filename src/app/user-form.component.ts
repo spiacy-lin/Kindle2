@@ -11,7 +11,7 @@ export class UserFormComponent {
     model = new User('','','');
     submitted = false;
 
-    onsubmit() {
+    onSubmit() {
         this.submitted = true;
     }
 }
